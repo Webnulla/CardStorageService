@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardStorageService", "CardStorageService\CardStorageService.csproj", "{9C75F00B-5D0C-4176-8333-DF81FD820D12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{55433F51-8647-4427-9470-AC9281CB1C2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardStorageService.Data", "CardStorageService.Data\CardStorageService.Data.csproj", "{CA107DBF-B221-4225-9395-12FCD6CEEA80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Account.Hepler", "Account.Hepler\Account.Hepler.csproj", "{932CE6D8-3C15-423A-B1AB-966629B1915E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardStorageClient", "CardStorageClient\CardStorageClient.csproj", "{225B674B-1E62-4BBA-9C7E-25B300825F64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C75F00B-5D0C-4176-8333-DF81FD820D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C75F00B-5D0C-4176-8333-DF81FD820D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C75F00B-5D0C-4176-8333-DF81FD820D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C75F00B-5D0C-4176-8333-DF81FD820D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA107DBF-B221-4225-9395-12FCD6CEEA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA107DBF-B221-4225-9395-12FCD6CEEA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA107DBF-B221-4225-9395-12FCD6CEEA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA107DBF-B221-4225-9395-12FCD6CEEA80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{932CE6D8-3C15-423A-B1AB-966629B1915E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932CE6D8-3C15-423A-B1AB-966629B1915E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932CE6D8-3C15-423A-B1AB-966629B1915E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932CE6D8-3C15-423A-B1AB-966629B1915E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225B674B-1E62-4BBA-9C7E-25B300825F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225B674B-1E62-4BBA-9C7E-25B300825F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225B674B-1E62-4BBA-9C7E-25B300825F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225B674B-1E62-4BBA-9C7E-25B300825F64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA107DBF-B221-4225-9395-12FCD6CEEA80} = {55433F51-8647-4427-9470-AC9281CB1C2E}
+	EndGlobalSection
+EndGlobal
